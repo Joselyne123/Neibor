@@ -4,14 +4,12 @@ Neighborhood watch app
 
 ## Author:
 
-Joselyne MPAYIMANA
+INGABIRE Joselyne
 
 ## Contact information:
 
-1. Tel: (250)787753215;
-2. Email: joselynejojo740@gmail.com;
-3. Facebook: Joselyne M.JOJO;
-4. LinkedIn: Joselyne MPAYIMANA;
+1. Tel: (250)782013962;
+2. Email: joseingabire123@gmail.com;
 
 ## Project description:
 
@@ -25,13 +23,9 @@ Joselyne MPAYIMANA
  Postgressql
  Heroku
 
- ## Link of the website is:
 
-https://neb-hood.herokuapp.com/ 
 
- ## Copyright and license information:
-
- &#9400; Made in November.2019, by Jo
+ 
 
 
 
