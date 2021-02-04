@@ -1,1 +1,1 @@
-web: gunicorn nebproject.wsgi --log-file -
+web: gunicorn nebproject.wsgi 
