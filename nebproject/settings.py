@@ -57,12 +57,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECRET_KEY = '%5ppk=bd(7tk$gydj(y$6mr=63^e0uxp@tnc1=+@q^9)y5gz^&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
+DEBUG = True
 
-# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = []
 
 
-# Application definition
+Application definition
 
 INSTALLED_APPS = [
 
