@@ -13,8 +13,6 @@ class Profile(models.Model):
   
     profile_pic = models.ImageField(upload_to = 'pic/', blank=True, null=True)
     
-
-    
     def save_profile(self):
         self.save()
 
@@ -51,10 +49,6 @@ class Neighbourhood(models.Model):
     def delete_hood(self):
         self.delete()
 
-    
-  
-
-
     @classmethod
     def search_by_title(cls,search_term):
         hood=cls.objects.filter(name__icontains=search_term)
@@ -64,9 +58,6 @@ class Neighbourhood(models.Model):
         return self.name
 
     
-
-
-
 class Business(models.Model):
     business_name=models.CharField(max_length=40)
     business_description=models.TextField(max_length=100)
@@ -86,11 +77,6 @@ class Business(models.Model):
 
     def __str__(self):
         return self.business_name
-
-   
-
-   
-
 
     @classmethod
     def search_by_title(cls,search_term):
